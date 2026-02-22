@@ -1,0 +1,47 @@
+# Sensitive Files
+*.key
+*.pem
+*_rsa
+*_ed25519
+*.env
+.env*
+
+# SSH Keys and Credentials
+id_*
+authorized_keys
+known_hosts
+
+# Passwords and Secrets
+*password*
+*secret*
+*credentials*
+*token*
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-*
+
+# Build Output
+node_modules/
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Private Notes
+PRIVATE*
+private*
